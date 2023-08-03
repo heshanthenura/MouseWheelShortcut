@@ -2,10 +2,22 @@
 
 Mouse Wheel Shortcut is a simple prototype application that demonstrates a basic mouse wheel shortcut functionality with JavaFX and JNativeHook. The application allows you to take a screenshot by following these steps:
 
-1. Press the middle mouse button.
-2. Move the mouse to the arc shape on the screen.
-3. Release the middle mouse button to trigger the screenshot capture.
-4. The screenshot will be saved in the "Pictures" folder.
+#### 1. Press the middle mouse button.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75155192/258181573-067870c7-8b19-4a71-a75b-72207b0bfcb9.png" alt="Mouse Wheel Shortcut" />
+</p>
+
+#### 2. Move the mouse to the arc shape on the screen.
+#### 3. Release the middle mouse button when the arc turns red to trigger the screenshot capture.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75155192/258181969-cc3a7797-11c9-4f8a-82e6-066b58dddc20.png" alt="Mouse Wheel Shortcut" />
+</p>
+
+#### 4. The screenshot will be saved in the "Pictures" folder.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75155192/258182146-c76779a7-dfc0-40e9-9fc0-087a4391c50a.png" />
+</p>
 
 ## About
 
@@ -16,7 +28,7 @@ Please note that this is just a prototype, and it serves as a foundation for fut
 ## Features
 
 - Click the middle mouse button and move the mouse to the arc shape to take a screenshot.
-- The screenshot will be saved in the "Pictures" folder.
+- The arc shape will turn red when the mouse is inside the upper half and at a distance greater than 5 pixels.
 
 ## Future Plans
 
@@ -56,13 +68,3 @@ This project is licensed under the [MIT License](LICENSE).
 Feel free to explore the code and play around with the application. I welcome any feedback, suggestions, or contributions!
 
 Thank you for checking out this prototype! 😊
-
-### If you're interested in custom application development or would like to discuss a project, please don't hesitate to contact me.
-
-<ul>
-    <li><a href="https://twitter.com/Heshantk">Twitter</a></li>
-    <li><a href="https://www.linkedin.com/in/heshanthenura">LinkedIn</a></li>
-    <li><a href="https://www.instagram.com/heshan_thenura/">Instagram</a></li>
-    <li><a href="https://youtube.com/@heshanthenura">YouTube</a></li>
-    <li><a href="https://www.tiktok.com/@heshanthenura">TikTok</a></li>
-</ul>
