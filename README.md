@@ -2,6 +2,8 @@
 
 Mouse Wheel Shortcut is a simple prototype application that demonstrates a basic mouse wheel shortcut functionality with JavaFX and JNativeHook. The application allows you to take a screenshot by following these steps:
 
+[Demo Video](https://user-images.githubusercontent.com/75155192/258189433-17bc23e3-e4cd-447f-90a1-33f5092d8911.mp4)
+
 #### 1. Press the middle mouse button.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75155192/258181573-067870c7-8b19-4a71-a75b-72207b0bfcb9.png" alt="Mouse Wheel Shortcut" />
