@@ -1,0 +1,164 @@
+2023.07.28 14:58:23 INFO  Started: Metals version 1.0.0 in folders 'E:\Coding\Java\Projects\MouseWheelShortcut' for client Visual Studio Code 1.75.1.
+Jul 28, 2023 2:58:24 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 28, 2023 2:58:24 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 28, 2023 2:58:24 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 28, 2023 2:58:26 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\Coding\Java\Projects\MouseWheelShortcut\.metals\metals (H2 2.1)
+Jul 28, 2023 2:58:26 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 28, 2023 2:58:26 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.068s)
+Jul 28, 2023 2:58:26 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 28, 2023 2:58:26 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 28, 2023 2:58:26 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 28, 2023 2:58:26 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 28, 2023 2:58:26 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 28, 2023 2:58:26 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 28, 2023 2:58:27 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.089s)
+2023.07.28 14:58:28 INFO  time: initialize in 4.67s
+2023.07.28 14:58:34 WARN  Build server is not auto-connectable.
+2023.07.28 14:58:35 WARN  no build target for: E:\Coding\Java\Projects\MouseWheelShortcut\src\main\java\com\heshanthenura\mousewheelshortcut\Listener.java
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:3: error: package org.jnativehook does not exist
+import org.jnativehook.GlobalScreen;
+                      ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:4: error: package org.jnativehook does not exist
+import org.jnativehook.NativeHookException;
+                      ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:5: error: package org.jnativehook.keyboard does not exist
+import org.jnativehook.keyboard.NativeKeyEvent;
+                               ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:6: error: package org.jnativehook.keyboard does not exist
+import org.jnativehook.keyboard.NativeKeyListener;
+                               ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:7: error: package org.jnativehook.mouse does not exist
+import org.jnativehook.mouse.NativeMouseEvent;
+                            ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:8: error: package org.jnativehook.mouse does not exist
+import org.jnativehook.mouse.NativeMouseListener;
+                            ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:20: error: cannot find symbol
+    static class GlobalKeyMouseListener implements NativeKeyListener, NativeMouseListener {
+                                                   ^
+  symbol:   class NativeKeyListener
+  location: class Listener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:20: error: cannot find symbol
+    static class GlobalKeyMouseListener implements NativeKeyListener, NativeMouseListener {
+                                                                      ^
+  symbol:   class NativeMouseListener
+  location: class Listener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:45: error: cannot find symbol
+        public void nativeKeyPressed(NativeKeyEvent e) {
+                                     ^
+  symbol:   class NativeKeyEvent
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:53: error: cannot find symbol
+        public void nativeKeyReleased(NativeKeyEvent e) {
+                                      ^
+  symbol:   class NativeKeyEvent
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:58: error: cannot find symbol
+        public void nativeKeyTyped(NativeKeyEvent e) {
+                                   ^
+  symbol:   class NativeKeyEvent
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:63: error: cannot find symbol
+        public void nativeMouseClicked(NativeMouseEvent e) {
+                                       ^
+  symbol:   class NativeMouseEvent
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:69: error: cannot find symbol
+        public void nativeMousePressed(NativeMouseEvent e) {
+                                       ^
+  symbol:   class NativeMouseEvent
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:76: error: cannot find symbol
+        public void nativeMouseReleased(NativeMouseEvent e) {
+                                        ^
+  symbol:   class NativeMouseEvent
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:15: error: cannot find symbol
+        Logger logger = Logger.getLogger(GlobalScreen.class.getPackage().getName());
+                                         ^
+  symbol:   class GlobalScreen
+  location: class Listener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:24: error: cannot find symbol
+                GlobalScreen.registerNativeHook();
+                ^
+  symbol:   variable GlobalScreen
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:25: error: cannot find symbol
+            } catch (NativeHookException ex) {
+                     ^
+  symbol:   class NativeHookException
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:30: error: cannot find symbol
+            GlobalScreen.addNativeKeyListener(this);
+            ^
+  symbol:   variable GlobalScreen
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:31: error: cannot find symbol
+            GlobalScreen.addNativeMouseListener(this);
+            ^
+  symbol:   variable GlobalScreen
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:35: error: cannot find symbol
+            GlobalScreen.removeNativeKeyListener(this);
+            ^
+  symbol:   variable GlobalScreen
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:36: error: cannot find symbol
+            GlobalScreen.removeNativeMouseListener(this);
+            ^
+  symbol:   variable GlobalScreen
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:38: error: cannot find symbol
+                GlobalScreen.unregisterNativeHook();
+                ^
+  symbol:   variable GlobalScreen
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:39: error: cannot find symbol
+            } catch (NativeHookException ex) {
+                     ^
+  symbol:   class NativeHookException
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:44: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:47: error: cannot find symbol
+            if (NativeKeyEvent.getKeyText(e.getKeyCode()).equalsIgnoreCase("E")) {
+                ^
+  symbol:   variable NativeKeyEvent
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:52: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:57: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:62: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:68: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:70: error: cannot find symbol
+            if (e.getButton() == NativeMouseEvent.BUTTON3) {
+                                 ^
+  symbol:   variable NativeMouseEvent
+  location: class GlobalKeyMouseListener
+/E:/Coding/Java/Projects/MouseWheelShortcut/src/main/java/com/heshanthenura/mousewheelshortcut/Listener.java:75: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+2023.07.28 15:18:20 INFO  Shutting down server
+2023.07.28 15:18:20 INFO  shutting down Metals
+2023.07.28 15:18:21 INFO  Exiting server
